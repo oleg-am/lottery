@@ -1,0 +1,19 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "lottery",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleg-am/lottery.git"
+  },
+  "author": "Oleg Avgustinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleg-am/lottery/issues"
+  },
+  "homepage": "https://github.com/oleg-am/lottery#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
