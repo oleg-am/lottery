@@ -26,9 +26,13 @@ var Storage = function(name) {
     return Object.keys(self.getStorage()).length;
   };
 
+  this.getLastId = function() {
+    return Object.keys(self.getStorage()).slice(-1)[0];
+  };
+
   this.setCurrentElem = function(elem) {
     self._currentElem = {
-      _id:      elem['_id'] || self.getCount() + 1,
+      _id:      elem['_id'] || +self.getLastId() + 1,
       name:     elem['name'],
       surname:  elem['surname'],
       email:    elem['email'],
